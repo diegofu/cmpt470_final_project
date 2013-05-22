@@ -1,0 +1,413 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image:url("../images/light_wool.png");
+	background-repeat:repeat;
+}
+
+
+textarea {
+	resize: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.tiny {
+	font-size: 8pt;
+	color: gray;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: #468847;
+}
+
+.nav {
+	margin-bottom: 0px;
+}
+
+.margin-left-clear {
+	margin-left: 0px;
+}
+
+.tab-content {
+	background-color: white;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+#random-exercise-container {
+	background-color: whitesmoke;
+}
+
+.container-box {
+	position: relative;
+	margin: 15px 0;
+	padding: 39px 19px 0px;
+	background-color: white;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.container-box .header {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: whiteSmoke;
+	border: 1px solid #DDD;
+	color: #9DA0A4;
+	-webkit-border-radius: 4px 0 4px 0;
+	-moz-border-radius: 4px 0 4px 0;
+	border-radius: 4px 0 4px 0;
+}
+
+/** navigation **/
+.navbar-inner {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	padding: 10px;
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	background-color: gray;
+}
+
+.navbar {
+	margin-bottom: 10px;
+}
+
+#navpane{
+	position: absolute;
+	z-index: 100;
+}
+
+#sidenav {
+	float: left;
+	padding: 10px;
+	background-color: #1B1B1B;    
+}
+
+#sidenav ul{
+	list-style: none;
+}
+
+#sidebar select {
+	width: 208px;
+	line-height: 22px;
+	height: 22px;
+}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle {
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	background-color: gray;
+}
+
+#alert.alert {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#sol-temp {
+	float: left;
+}
+/** 
+Do exercises page 
+**/
+#code, #solution, #solutioncode, #template, #instructions{ 
+	margin: 0;
+	position: relative;
+	height: 400px;
+}
+
+#code_pane, #solution_pane{
+	float: left;
+}
+
+#do_ex_wrapper {
+	margin: 0px 20px;
+}
+
+#run_code {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+Changing line highlight color...
+**/
+.ace-eclipse .ace_marker-layer .ace_active-line {
+	background: #E6E6E6;
+}
+
+.cancel_margin {
+	margin: 0px;
+}
+
+/****** QTIP *******/
+.ui-tooltip, .qtip {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/****** Log in *******/
+.login{
+	width:480px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.profile_detials img{
+	width:20px;
+}
+
+#exercises .exercise-body{
+	min-height: 50px;
+}
+
+.pagination a, .pagination a:visited {
+	color: black;
+}
+
+
+#exercises.table-striped tbody tr:nth-child(odd) td{
+	background-color: #333;
+	color: white;
+}
+
+
+/************** QTIP ****************/
+.qtip label {
+	margin-bottom: 0;
+}
+
+.usermenu i {
+	position: relative;
+	top: 0px;
+	right: 0px;
+	background-color: red;
+	color: white;
+}
+
+
+/************ BROWSE EXERCISE/COLLECTION PAGE *****************/
+#exercises-container .body,
+#collections-container .body{
+	margin-left: 0;
+	white-space: nowrap;
+	background-color: white;
+	border: 1px solid #c5c5c5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#exercises-container .pagination,
+#collections-container .pagination{
+	margin-top: 10px;
+	margin-left: 0px;
+}
+
+#exercises-container .title,
+#collections-container .title  {
+	white-space: nowrap;
+}
+
+#exercises-container h3,
+#collections-container h3 {
+	margin: 0;
+}
+
+#exercises-container small,
+#collections-container small {
+	color: gray;
+}
+
+#exercises-container [class*="span"],
+#collections-container [class*="span"] {
+	margin-left: 15px;
+}
+
+#exercises-container .stat-container,
+#collections-container .stat-container{
+	width: 55px;
+	margin-left: 0;
+	text-align: center;
+	background-color: whitesmoke;
+	min-height: 61px;
+}
+
+#exercises-container .stat-container .stat,
+#collections-container .stat-container .stat{
+	font-size: 150%;
+	margin-top: 5px;
+}
+
+#exercises-container [class*="span"].information,
+#collections-container [class*="span"].information{
+	margin: 0px;
+	width: 650px;
+
+}
+
+#exercises-container .stat-container.darker,
+#collections-container .stat-container.darker{
+	background-color: lightgray;
+}
+
+#exercises-container .tags > span,
+#collections-container .tags > span{
+	margin-right: 10px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+.tag {
+	margin-right: 10px;
+}
+
+#exercise-search-form #submit {
+	width: 270px;
+}
+
+.container-box [class*="span"] {
+	margin-left: 0px;
+}
+
+
+.container-box .exercise{
+	border-top: 1px solid #DEDEDE;
+	min-height: 30px;
+	line-height: 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.container-box {
+	float: left;
+	border: 1px solid #DEDEDE;
+	margin-bottom: 1.5em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.exercise_list {
+	width: 300px;
+}
+
+#view_collection{
+	padding-left: 0;
+	padding-bottom: 5px;
+}
+
+
+/* Upload exercise*/
+#sol-temp > div{
+	margin-top: 10px;
+}
+#title-tags {
+	margin-left: 20px;
+}
+
+#title-tags > div{
+	margin-top: 10px;
+}
+
+#title-tags > 
+legend button {
+	height: 1.6em;
+	line-height: 1.6em;
+	font-size: 1.6em; 
+	background-color: rgba(255,255,255,.5);
+	border: 1px outset rgba(0,0,0,.1);
+	color: rgba(0,0,0,.5);
+}
+legend button:hover {
+	border-color: rgba(82, 168, 255, 0.2);
+	outline: 0;
+	outline: thin dotted \9;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+legend button:active{
+	border-color: rgba(0, 255, 0, 0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	-webkit-box-shadow: inset 0 9px 9px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 255, 0, 0.8);
+	-moz-box-shadow: inset 0 9px 9px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 255, 0, 0.8);
+	box-shadow: inset 0 9px 9px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 255, 0, 0.8);
+}
+.message_view span {
+	margin: 5px;
+}
+
+#popup {
+	display: none;
+}
+
+#popup .pClose {
+	margin-bottom: 5px;
+}
+
+.ace_print-margin{
+	display: none;
+}
+
+.tabbable input[type = "checkbox"] {
+	margin-right: 5px;
+	margin-top: 0px;
+}
+
+.tabbable .close {
+	line-height: 12px;
+}
+
+
+#discussion-container .container-box{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#view-exercise-hero-unit {
+    margin-left: 10px;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+.container-box.discussion {
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.discussion .body {
+    background-color: #EEE;
+    margin-bottom: 10px;
+}
+
+.discussion .body div {
+	word-wrap: break-word;
+}
+
+#discussion_form {
+    padding-left: 15px;
+    padding-right: 15px;
+}
